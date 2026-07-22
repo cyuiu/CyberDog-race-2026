@@ -1,0 +1,15 @@
+GAITS = [
+    {"name": "自适应慢走前进 1s", "motion_id": 345, "vel": [0.05, 0.0, 0.0], "duration": 1.0, "risk": "medium"},
+    {"name": "自适应后退 1s", "motion_id": 345, "vel": [-0.04, 0.0, 0.0], "duration": 1.0, "risk": "medium"},
+    {"name": "自适应左移 1s", "motion_id": 345, "vel": [0.0, 0.03, 0.0], "duration": 1.0, "risk": "medium"},
+    {"name": "自适应右移 1s", "motion_id": 345, "vel": [0.0, -0.03, 0.0], "duration": 1.0, "risk": "medium"},
+    {"name": "原地左转 0.8s", "motion_id": 345, "vel": [0.0, 0.0, 0.25], "duration": 0.8, "risk": "medium"},
+    {"name": "原地右转 0.8s", "motion_id": 345, "vel": [0.0, 0.0, -0.25], "duration": 0.8, "risk": "medium"},
+    {"name": "慢走步态前进 1s", "motion_id": 303, "vel": [0.05, 0.0, 0.0], "duration": 1.0, "risk": "medium"},
+    {"name": "中速步态前进 1s", "motion_id": 308, "vel": [0.08, 0.0, 0.0], "duration": 1.0, "risk": "high"},
+    {"name": "快走步态前进 1s", "motion_id": 305, "vel": [0.10, 0.0, 0.0], "duration": 1.0, "risk": "high"},
+    {"name": "变频步态前进 1s", "motion_id": 304, "vel": [0.05, 0.0, 0.0], "duration": 1.0, "risk": "high"},
+    {"name": "四足跳跑 1s", "motion_id": 301, "vel": [0.03, 0.0, 0.0], "duration": 1.0, "risk": "very_high"},
+    {"name": "四足蹦跳 1s", "motion_id": 302, "vel": [0.02, 0.0, 0.0], "duration": 1.0, "risk": "very_high"},
+    {"name": "停止步态", "type": "stop", "motion_id": 345, "risk": "low"},
+]
